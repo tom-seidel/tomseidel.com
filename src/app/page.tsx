@@ -8,9 +8,11 @@ export default function Home() {
   const toggleMenu = () => setMenuOpen(prev => !prev);
 
   return (
-    <div className="bg-gray-200 min-h-screen">
+    <div className="bg-neutral-500 min-h-screen">
       {/* Navbar */}
-      <nav className="flex justify-between p-4 sticky top-0 bg-slate-800 z-50">
+<nav
+  className={`flex justify-between p-4 sticky top-0 bg-white/10 backdrop-blur-md z-50 ${menuOpen ? '' : 'border-b-2 border-white/20'}`}>
+        {/* Logo */}
         <div className="text-white text-xl">Tom Seidel</div>
 
         {/* Mobile menu button */}
@@ -44,7 +46,7 @@ export default function Home() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <nav className="sm:hidden w-full bg-slate-800 p-8 fixed top-[60px] rounded-b-lg shadow-lg z-40">
+        <nav className="sm:hidden w-full bg-white/10 backdrop-blur-md border-b border-white/20 p-8 fixed top-[60px] rounded-b-lg shadow-lg z-40">
           <ul className="flex flex-col items-center space-y-8">
             <li><a href="#" className="text-white hover:text-gray-400">Home</a></li>
             <li><a href="#" className="text-white hover:text-gray-400">About</a></li>
