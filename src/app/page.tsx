@@ -10,10 +10,10 @@ export default function Home() {
   const borderClass = menuOpen ? '' : 'border-b-2 border-white/20';
 
   return (
-    <div className="bg-neutral-500 min-h-screen">
-      {/* Navbar */}
-<nav
-  className={`flex justify-between p-4 sticky top-0 bg-white/10 backdrop-blur-md z-50 ${borderClass}`}>
+  <div className="bg-neutral-500 min-h-screen">
+    {/* Navbar */}
+    <nav
+      className={`flex justify-between p-4 sticky top-0 bg-white/10 backdrop-blur-md z-50 ${borderClass}`}>
         {/* Logo */}
         <div className="text-white text-xl">Tom Seidel</div>
 
