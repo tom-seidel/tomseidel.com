@@ -61,7 +61,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="p-12 text-center text-white min-h-[400px]">
         <h1 className="text-2xl font-bold">Welcome to my personal website</h1>
-        <p className="mt-4">This is a simple navigation bar example using Tailwind CSS in Next.js.</p>
+        <p className="mt-4">This website is made with Next.js, Tailwind CSS, and TypeScript.</p>
       </main>
     </div>
   );
