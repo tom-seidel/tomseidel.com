@@ -16,7 +16,7 @@ export default function LegalNoticePage() {
         </p>
         <p>
           Tom Seidel<br />
-          Werner-Heisenberg-Weg 15<br />
+          Werner-Heisenberg-Weg 1<br />
           59399 Olfen<br />
           Germany
         </p>
