@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { GitHubLogoIcon, TwitterLogoIcon, InstagramLogoIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import { BlueskyLogoIcon } from "@/components/icons/BlueskyLogoIcon";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
           <nav aria-label="Social links" className="flex items-center gap-8 sm:gap-10">
             <a aria-label="GitHub" className="text-white/70 hover:text-white transition-colors" href="https://github.com/tom-seidel" target="_blank" rel="noopener noreferrer">
               <GitHubLogoIcon className="size-5 sm:size-7" />
+            </a>
+            <a aria-label="Bluesky" className="group text-white/70 hover:text-white transition-colors" href="https://bsky.app/profile/tomseidel.com" target="_blank" rel="noopener noreferrer">
+              <BlueskyLogoIcon className="opacity-70 group-hover:opacity-100 transition-opacity" />
             </a>
             <a aria-label="X (Twitter)" className="text-white/70 hover:text-white transition-colors" href="https://x.com/itsTomSeidel" target="_blank" rel="noopener noreferrer">
               <TwitterLogoIcon className="size-5 sm:size-7" />
