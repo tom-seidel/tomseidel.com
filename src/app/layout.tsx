@@ -44,7 +44,7 @@ export default function RootLayout({
               aria-hidden
               className="absolute right-12 top-1/2 -translate-y-1/2 text-[10px] font-mono text-white/25 select-none"
             >
-              v0.1.5
+              v0.1.6
             </span>
           </footer>
         </div>
