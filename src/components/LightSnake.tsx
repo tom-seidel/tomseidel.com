@@ -27,12 +27,12 @@ export default function LightSnake() {
       height = 0;
 
     // Grid and snake parameters
-  const GRID = 10; // px per cell
+  const GRID = 8; // px per cell
   const CORNER_CROSS_SIZE = 100; // aligns with CornerMarks default size
   const MAX_LENGTH_PX = CORNER_CROSS_SIZE * 6; // requested ~6x cross size
   const maxCells = Math.max(8, Math.round(MAX_LENGTH_PX / GRID)); // keep fixed to avoid excessive length
   const LINE_THICKNESS = 2; // thicker core line for visibility
-  const CELLS_PER_SEC = 20; // calmer movement speed
+  const CELLS_PER_SEC = 16; // calmer movement speed
 
     function resize() {
       width = window.innerWidth;
@@ -290,7 +290,7 @@ export default function LightSnake() {
   return (
     <canvas
       ref={canvasRef}
-  className="pointer-events-none fixed inset-0 z-0 opacity-37 mix-blend-screen"
+  className="pointer-events-none fixed inset-0 z-0 opacity-35 mix-blend-screen"
       aria-hidden
     />
   );
