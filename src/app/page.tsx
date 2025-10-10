@@ -27,7 +27,7 @@ export default function Home() {
                 AI-focused Full Stack Engineer
               </p>
               <p className="text-base sm:text-lg text-white/70 max-w-2xl">
-                Building the next wave of agentic AI – and taking you along for the journey
+                Crafting the next era of intelligent apps – and taking you along for the journey
               </p>
             </div>
           </div>
