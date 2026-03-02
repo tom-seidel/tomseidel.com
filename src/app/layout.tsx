@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import CornerMarks from "@/components/CornerMarks";
 import LightSnake from "@/components/LightSnake";
+import CurrentYear from "@/components/CurrentYear";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,7 @@ export default function RootLayout({
         <div className="min-h-dvh flex flex-col">
           {children}
           <footer className="relative mt-auto py-4 text-center text-xs text-white/30 pr-16 pl-16">
-            © {new Date().getFullYear()} Tom Seidel |
+            © <CurrentYear /> Tom Seidel |
             {" "}
             <Link href="/legal-notice" className="underline hover:text-white/60">
               Legal Notice
