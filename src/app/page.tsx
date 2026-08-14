@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { GitHubLogoIcon, TwitterLogoIcon, InstagramLogoIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, InstagramLogoIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
+import { XLogoIcon } from "@/components/icons/XLogoIcon";
 
 export default function Home() {
   return (
@@ -35,8 +36,8 @@ export default function Home() {
             <a aria-label="GitHub" className="text-white/70 hover:text-white transition-colors" href="https://github.com/tom-seidel" target="_blank" rel="noopener noreferrer">
               <GitHubLogoIcon className="size-5 sm:size-7" />
             </a>
-            <a aria-label="X (Twitter)" className="text-white/70 hover:text-white transition-colors" href="https://x.com/itsTomSeidel" target="_blank" rel="noopener noreferrer">
-              <TwitterLogoIcon className="size-5 sm:size-7" />
+            <a aria-label="X" className="text-white/70 hover:text-white transition-colors" href="https://x.com/tomseidel" target="_blank" rel="noopener noreferrer">
+              <XLogoIcon className="size-5 sm:size-7" />
             </a>
             <a aria-label="Instagram" className="text-white/70 hover:text-white transition-colors" href="https://www.instagram.com/tom_sei" target="_blank" rel="noopener noreferrer">
               <InstagramLogoIcon className="size-5 sm:size-7" />
