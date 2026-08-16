@@ -24,7 +24,7 @@ export default function Home() {
             </h1>
             <div className="space-y-1">
               <p className="text-base sm:text-lg text-white/70 max-w-2xl">
-                AI Systems & Mobile Developer
+                AI-focused Full Stack Engineer
               </p>
               <p className="text-base sm:text-lg text-white/70 max-w-2xl">
                 Crafting the next era of intelligent apps and taking you along for the journey
