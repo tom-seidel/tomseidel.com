@@ -24,10 +24,10 @@ export default function Home() {
             </h1>
             <div className="space-y-1">
               <p className="text-base sm:text-lg text-white/70 max-w-2xl">
-                AI-focused Full Stack Engineer
+                AI Systems & Mobile Developer
               </p>
               <p className="text-base sm:text-lg text-white/70 max-w-2xl">
-                Crafting the next era of intelligent apps – and taking you along for the journey
+                Crafting the next era of intelligent apps and taking you along for the journey
               </p>
             </div>
           </div>
