@@ -36,7 +36,7 @@ export default function Home() {
             <a aria-label="GitHub" className="text-white/70 hover:text-white transition-colors" href="https://github.com/tom-seidel" target="_blank" rel="noopener noreferrer">
               <GitHubLogoIcon className="size-5 sm:size-7" />
             </a>
-            <a aria-label="X" className="text-white/70 hover:text-white transition-colors" href="https://x.com/tomseidel" target="_blank" rel="noopener noreferrer">
+            <a aria-label="X" className="text-white/70 hover:text-white transition-colors" href="https://x.com/itstomseidel" target="_blank" rel="noopener noreferrer">
               <XLogoIcon className="size-5 sm:size-7" />
             </a>
             <a aria-label="Instagram" className="text-white/70 hover:text-white transition-colors" href="https://www.instagram.com/tom_sei" target="_blank" rel="noopener noreferrer">
