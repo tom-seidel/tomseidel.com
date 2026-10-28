@@ -26,7 +26,7 @@ export default function LegalNoticePage() {
           E-Mail: <a href="mailto:hi@tomseidel.com" className="underline hover:text-white">hi@tomseidel.com</a>
         </p>
 
-        <h2 className="mt-10 text-base font-medium">Responsible for content according to § 55 Abs. 2 RStV:</h2>
+        <h2 className="mt-10 text-base font-medium">Responsible for content according to § 18 Abs. 2 MStV:</h2>
         <p>
           Tom Seidel (same address as above)
         </p>
